@@ -24,9 +24,9 @@ The only difference between `before` and `after` is the **data**. The blue heade
 
 ## The prompt
 
-> Here's my InDesign proposal and an updated `pricing.xlsx`. Replace the line items in the pricing table with the rows from the spreadsheet, format the prices as currency, and recompute the total. Keep the table's existing styling exactly — the header colour, the font, the column widths, the bold total row — and add or remove rows as needed to match the spreadsheet.
+> Replace the line items in the pricing table in InDesign with the rows from this spreadsheet, format the prices as currency, and recompute the total. Keep the table's existing styling exactly — the header colour, the font, the column widths, the bold total row — and add or remove rows as needed.
 
-(Attach both `before.idml`'s document — i.e. open it in InDesign — and `pricing.xlsx` to your AI assistant.)
+Open `before.idml` in InDesign and attach `pricing.xlsx` to your AI assistant. The phrase **"in InDesign"** matters: because you're uploading a spreadsheet, it tells the assistant to edit the InDesign table rather than the sheet.
 
 ## What Sidekick should produce
 
@@ -37,7 +37,9 @@ The only difference between `before` and `after` is the **data**. The blue heade
 
 ## Verified
 
-Run end-to-end with Sidekick (plugin 1.0.13) on 2026-06-07 **by giving the prompt above to `before.idml` and changing nothing by hand**: the table grew from 4 to 6 line items, the prices and total updated ($19,400), and — with no manual restyling and no manual repositioning — the new rows kept regular-weight Myriad Pro with the correct row rules, the blue header and bold total held, and the footer note reflowed down below the longer table. Confirmed by snapshot.
+Run end-to-end with Sidekick (plugin 1.0.13) **by giving the prompt above to `before.idml` and changing nothing by hand**: the table grew from 4 to 6 line items, the prices and total updated ($19,400), and — with no manual restyling and no manual repositioning — the new rows kept regular-weight Myriad Pro with the correct row rules, the blue header and bold total held, and the footer note reflowed down below the longer table. Confirmed by snapshot.
+
+Also confirmed in **Claude Desktop**: with `before.idml` open in InDesign, attaching `pricing.xlsx` to the chat and running the prompt above produced the same correct result — it read the uploaded spreadsheet and updated the open document.
 
 ## How the document is built (so the update "just works")
 
