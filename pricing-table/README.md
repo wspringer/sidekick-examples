@@ -50,4 +50,4 @@ Without these, "replace the line items" leaves new rows bold and the note overla
 
 ## Notes on the assets
 
-`Northwind Studios` and `Vellum & Vine` are fictional. The brand colour is Sidekick's blue (`#0ea5e9`); the typeface is **Myriad Pro**, which ships with InDesign on every platform, so the example opens correctly for anyone.
+`Northwind Studios` and `Vellum & Vine` are fictional. The typeface is **Myriad Pro**, which ships with InDesign on every platform, so the example opens correctly for anyone.
