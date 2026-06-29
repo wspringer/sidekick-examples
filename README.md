@@ -12,6 +12,7 @@ Most folders pair with a write-up on the [Sidekick blog](https://sidekick.eastpo
 |---------|---------------|-----------|
 | [`pricing-table`](./pricing-table) | Update a proposal's priced table from an Excel file — changed prices, added rows, recomputed total — while keeping the brand font and styling | _(coming soon)_ |
 | [`booklet-imposition`](./booklet-imposition) | Reorder a multi-page document into saddle-stitch printer spreads and export a print-ready PDF — the imposition InDesign won't do natively | _(coming soon)_ |
+| [`alt-text-audit`](./alt-text-audit) | Audit alt text across every image in a document — flag the missing ones and Adobe's "AI generated" placeholders, and write proper descriptions of what's actually visible, even for clipped, overlaid, occluded, rotated, and oval-framed photos | _(coming soon)_ |
 
 ## How to use an example
 
