@@ -13,6 +13,7 @@ Most folders pair with a write-up on the [Sidekick blog](https://sidekick.eastpo
 | [`pricing-table`](./pricing-table) | Update a proposal's priced table from an Excel file — changed prices, added rows, recomputed total — while keeping the brand font and styling | _(coming soon)_ |
 | [`booklet-imposition`](./booklet-imposition) | Reorder a multi-page document into saddle-stitch printer spreads and export a print-ready PDF — the imposition InDesign won't do natively | _(coming soon)_ |
 | [`alt-text-audit`](./alt-text-audit) | Audit alt text across every image in a document — flag the missing ones and Adobe's "AI generated" placeholders, and write proper descriptions of what's actually visible, even for clipped, overlaid, occluded, rotated, and oval-framed photos | _(coming soon)_ |
+| [`multi-page-score`](./multi-page-score) | Engrave a four-page Schubert song with LilyPond (via lilypond-mcp) and lay it out in InDesign — one engraved page per document page, running heads and page numbers from the parent, and the lyrics set in the document's own body font | [Sheet music in InDesign: a multi-page score in the document's own font](https://sidekick.eastpole.nl/blog/multi-page-score/) |
 
 ## How to use an example
 
