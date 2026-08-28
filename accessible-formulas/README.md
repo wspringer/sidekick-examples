@@ -89,6 +89,12 @@ itself, not of this pipeline.
 - InDesign will ask for **folder access** the first time Claude places the SVG
   or writes the PDF — grant it once per session
 
+**Claude Code vs. Claude Desktop:** the re-tag step runs a Python script, so
+the example works end to end from **Claude Code** (which also picks up the
+`CLAUDE.md` in this folder automatically). From **Claude Desktop** there's no
+shell — Claude will do the InDesign half and hand you the
+`python3 retag-formulas.py …` command to run yourself in a terminal.
+
 ## Assets
 
 `quadratic-formula.svg` was generated with
